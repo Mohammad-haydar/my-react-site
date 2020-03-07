@@ -1,10 +1,12 @@
 import React from 'react';
 
-import './Home.css';
+import './Home.scss';
 
 const Home = () => {
     return (
-        <h1>Home</h1>
+        <React.Fragment>
+            <h1>Home</h1>
+        </React.Fragment>
     )
 };
 
