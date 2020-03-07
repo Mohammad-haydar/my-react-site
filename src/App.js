@@ -1,23 +1,24 @@
 import React from 'react';
+import { Route, Switch, Redirect } from 'react-router-dom';
+
+import Home from './containers/Home/Home';
+import Experience from './containers/Experience/Experience';
+
+const App = () => {
+
+  const routes = (
+    <Switch>
+      <Route path='/experience' component={Experience} />
+      <Route path='/' exact component={Home} />
+      <Redirect to='/' />
+    </Switch>
+  )
 
 
-function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <React.Fragment>
+      {routes}
+    </React.Fragment>
   );
 }
 
