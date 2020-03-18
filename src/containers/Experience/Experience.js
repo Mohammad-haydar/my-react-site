@@ -8,11 +8,7 @@ const Experience = () => {
       <div className="wrapper">
         <div className="experience-container">
           <h1>Experience</h1>
-          <p>
-            Generates and inserts lorem ipsum textGenerates and inserts lorem
-            ipsum textGenerates and inserts lorem ipsum textGenerates and
-            inserts lorem ipsum textGenerates and inserts lorem ipsum text
-          </p>
+          <p>Cards will be placed here</p>
         </div>
       </div>
     </section>
