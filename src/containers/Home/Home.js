@@ -19,6 +19,18 @@ const Home = () => {
           <p>
             I'm a self-taught developer always looking to expand my knowledge.
           </p>
+          <p>
+            Please check out my work on
+            <a
+              href="https://github.com/MelissaAstbury "
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span>
+                &nbsp;Github&nbsp;<i class="fab fa-github"></i>!
+              </span>
+            </a>
+          </p>
         </article>
       </div>
     </section>

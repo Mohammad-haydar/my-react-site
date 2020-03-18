@@ -57,8 +57,54 @@ const Cards = () => {
         </p>
       </div>
       <div className="card">
-        <h3>Team Operations</h3>
-        <p className="job-title">Monarch Holidays - Travel</p>
+        <h3>Administration</h3>
+        <p className="job-title">Connell Sixth Form - Education</p>
+        <p>• Level 2 Business Administration and Level 2 ICT.</p>
+        <p>
+          • Attended various marketing events to attract new high school leavers
+          into being a Connell student
+        </p>
+        <p>
+          • Communicated with both parents and students dealing with any issues
+          or enquires
+        </p>
+        <p>
+          • Managed Reprographics which needs to be kept organised to meet the
+          high demand from teachers and to be more efficient to keep track of
+          the stock
+        </p>
+        <p>
+          • Learnt policies and regulations which the Education System provides
+          all across the schools
+        </p>
+        <p>
+          • Spent time on reception, providing customer service to the high
+          standards expected
+        </p>
+        <p>
+          • Delivered the post every day at the correct time so that important
+          mail can be distributed
+        </p>
+        <p>
+          • Uploaded and checked over the admissions folders so that new and old
+          applicants were kept up to date in their files in organised cabinets
+        </p>
+        <p>• Used excel spreadsheets to input student data</p>
+        <p>
+          • Used Photoshop and Illustrator to generate high-quality marketing
+          leaflets
+        </p>
+        <p>
+          • Set up and organised Open Day events so that we have the right
+          equipment required on the day.
+        </p>
+        <p>
+          • Achieved the ‘Apprentice Star’ award which has motivated me to do
+          more and take on more challenging tasks.
+        </p>
+        <p>• Supported the ‘Student Recruitment’ manager</p>
+        <p>• Added applications onto SIMs</p>
+        <p>• Provided support for students</p>
       </div>
     </div>
   );

@@ -1,5 +1,13 @@
 .home-container {
   max-width: 693px;
-  margin: 24px auto;
+  margin: 32px auto;
   text-align: center;
+
+  h3 {
+    padding-bottom: 12px;
+  }
+
+  p:last-child {
+    padding-top: 12px;
+  }
 }
