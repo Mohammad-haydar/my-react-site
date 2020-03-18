@@ -121,10 +121,6 @@ h4 {
 p {
   font-size: 18px;
   line-height: 1.7;
-
-  @media screen and (min-width: $mediaTabletWidth) {
-    font-size: 20px;
-  }
 }
 
 .wrapper {

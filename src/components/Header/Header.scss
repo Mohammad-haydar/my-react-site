@@ -1,5 +1,5 @@
 header {
-  background-color: #365d81;
+  background-color: #393e46;
 }
 
 .nav-container {
@@ -7,15 +7,27 @@ header {
   justify-content: space-between;
   padding: 10px 0;
 
+  h3 {
+    color: #ffffff;
+  }
+
   ul {
     display: flex;
     flex-direction: row;
     align-items: center;
 
+    li {
+      color: #ffffff;
+    }
+
     li:not(:first-child) {
       margin: 0 14px;
     }
   }
+}
+
+.nav-item {
+  padding-bottom: 4px;
 }
 
 .nav-item .active {

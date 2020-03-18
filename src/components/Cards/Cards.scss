@@ -1,0 +1,21 @@
+.cards-container {
+  display: flex;
+  max-width: 1280px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.card {
+  padding: 26px;
+  box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.1);
+  width: 600px;
+  margin: 32px 0 0;
+  text-align: left;
+  background-color: #fafafa;
+
+  .job-title {
+    text-decoration: underline;
+    letter-spacing: 1px;
+    padding-bottom: 6px;
+  }
+}
