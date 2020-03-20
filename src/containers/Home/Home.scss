@@ -3,6 +3,10 @@
   margin: 32px auto;
   text-align: center;
 
+  @media only screen and (max-width: 600px) {
+    padding: 0 10px;
+  }
+
   h3 {
     padding-bottom: 12px;
   }
