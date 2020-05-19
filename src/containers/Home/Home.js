@@ -27,7 +27,7 @@ const Home = () => {
               rel="noopener noreferrer"
             >
               <span>
-                &nbsp;Github&nbsp;<i class="fab fa-github"></i>!
+                &nbsp;Github&nbsp;<i className="fab fa-github"></i>!
               </span>
             </a>
           </p>

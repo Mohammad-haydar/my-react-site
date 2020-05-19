@@ -10,9 +10,7 @@ const Experience = () => {
       <div className="wrapper">
         <div className="experience-container">
           <h1>Experience</h1>
-          {/* <div className="cards-container"> */}
           <Cards />
-          {/* </div> */}
         </div>
       </div>
     </section>
