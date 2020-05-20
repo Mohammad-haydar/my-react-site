@@ -1,25 +1,44 @@
-import React from "react";
-import { NavLink } from "react-router-dom";
+import React, { useState } from "react";
+import NavItem from "./NavItem/NavItem";
 
 import "./Header.scss";
 
 const Header = () => {
+  const [burgerMenuToggled, setBurgerMenuToggled] = useState(false);
+
   return (
     <header>
       <div className="wrapper">
-        <nav className="nav-container">
+        <nav>
           <h3>Melissa Astbury</h3>
-          <ul>
-            <li className="nav-item">
-              <NavLink to="/" exact activeClassName="nav-item active">
-                Home
-              </NavLink>
-            </li>
-            <li className="nav-item">
-              <NavLink to="/experience" exact activeClassName="nav-item active">
-                Experience
-              </NavLink>
-            </li>
+          <div
+            className="hamburger"
+            onClick={() => {
+              setBurgerMenuToggled(!burgerMenuToggled);
+            }}
+          >
+            <div
+              className={burgerMenuToggled ? "line modified-line-01" : "line"}
+            ></div>
+            <div
+              className={burgerMenuToggled ? "line modified-line-02" : "line"}
+            ></div>
+            <div
+              className={burgerMenuToggled ? "line modified-line-03" : "line"}
+            ></div>
+          </div>
+          <ul
+            className={burgerMenuToggled ? "nav-list open" : "nav-list"}
+            onClick={() => {
+              setBurgerMenuToggled(false);
+            }}
+          >
+            <NavItem link="/" exact>
+              Home
+            </NavItem>
+            <NavItem link="/experience" exact>
+              Experience
+            </NavItem>
           </ul>
         </nav>
       </div>
@@ -28,10 +47,3 @@ const Header = () => {
 };
 
 export default Header;
-
-//   <HeaderItem link="/" exact>
-//               Home
-//             </HeaderItem>
-//             <HeaderItem link="/experience" exact>
-//               Experience
-//             </HeaderItem>
