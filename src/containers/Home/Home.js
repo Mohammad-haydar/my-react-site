@@ -19,6 +19,13 @@ const Home = () => {
           <p>
             I'm a self-taught developer always looking to expand my knowledge.
           </p>
+          <br />
+          <p>
+            My skills range from the basic HTML, CSS(scss/sass) to JavaScript
+            including React (redux, context API), Node, Express, MongoDB and
+            many others. I have built multiple systems which include fully
+            integrated backend servers with RESTful API's.
+          </p>
           <p>
             Please check out my work on
             <a
